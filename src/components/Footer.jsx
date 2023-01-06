@@ -5,7 +5,7 @@ const Footer = () =>  {
 
     return (
         <div className="Footer">
-            <h5> © Nimbus 2023 </h5>
+            <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400"> © Nimbus 2023 </span>
         </div>
     );
 }
