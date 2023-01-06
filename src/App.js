@@ -6,7 +6,7 @@ import AboutNimbus from './components/AboutNimbus.jsx'
 import KeyFeatures from './components/KeyFeatures.jsx'
 
 const App = () =>  {
-  return (
+  return ( 
     <div className="App">
       <Navbar/>
       <AboutNimbus/>
