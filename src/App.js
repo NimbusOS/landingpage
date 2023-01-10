@@ -1,20 +1,39 @@
 import React from 'react';
-import Contributors from './components/Contributors.jsx'
-import Navbar from './components/Navbar.jsx'
-import Footer from './components/Footer.jsx'
-import AboutNimbus from './components/AboutNimbus.jsx'
-import KeyFeatures from './components/KeyFeatures.jsx'
+import Contributors from './components/Contributors'
+import Footer from './components/Footer'
+import AboutNimbus from './components/AboutNimbus'
+import KeyFeatures from './components/KeyFeatures'
+import Navbar from './components/Navbar'
+import { Routes, Route } from "react-router-dom";
 
-const App = () =>  {
-  return ( 
-    <div className="App">
+const App = () => {
+  return (
+    <>
       <Navbar/>
       <AboutNimbus/>
       <KeyFeatures/>
       <Contributors/>
       <Footer/>
-    </div>
-  );
+        <Routes>
+          <Route path="/about" element={<AboutNimbus/>}/>
+          <Route path="/features" element={<KeyFeatures/>}/>
+          <Route path="/contributors" element={<Contributors/>}/>
+          <Route path="/footer" element={<Footer/>}/>
+        </Routes>
+    </>
+  )
 }
+
+// const App = () =>  {
+//   return ( 
+//     <div className="App">
+//       <Navbar/>
+//       <AboutNimbus/>
+//       <KeyFeatures/>
+//       <Contributors/>
+//       <Footer/>
+//     </div>
+//   );
+// }
 
 export default App;

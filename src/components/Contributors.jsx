@@ -39,7 +39,7 @@ const Contributors = () =>  {
     }
 
     return (
-        <div className="Contributors">
+        <div id="Contributors">
             <h3> Meet The Team </h3>
             {cards}
         </div>
