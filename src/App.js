@@ -5,12 +5,16 @@ import AboutNimbus from './components/AboutNimbus'
 import KeyFeatures from './components/KeyFeatures'
 import Navbar from './components/Navbar'
 import { Routes, Route } from "react-router-dom";
+import Hero from './components/Hero'
+import Highlights from './components/Highlights';
 
 const App = () => {
   return (
     <>
       <Navbar/>
+      <Hero />
       <AboutNimbus/>
+      <Highlights />
       <KeyFeatures/>
       <Contributors/>
       <Footer/>
