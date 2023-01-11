@@ -14,6 +14,10 @@ const KeyFeatures = () =>  {
             <li>The APIs tab gives you an in-depth look at common API metrics, endpoints, and the lambda functions they're connected to.</li>
             <li>In the Settings tab, you can also update your personal information and login details with ease.</li>
            </ul>
+           <br></br>
+           <br></br>
+           <br></br>
+           <br></br>
         </div>
     );
 }

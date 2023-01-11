@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import AboutNimbus from './components/AboutNimbus'
 import KeyFeatures from './components/KeyFeatures'
 import Navbar from './components/Navbar'
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import Hero from './components/Hero'
 import Highlights from './components/Highlights';
 
@@ -18,12 +18,6 @@ const App = () => {
       <KeyFeatures/>
       <Contributors/>
       <Footer/>
-        <Routes>
-          <Route path="/about" element={<AboutNimbus/>}/>
-          <Route path="/features" element={<KeyFeatures/>}/>
-          <Route path="/contributors" element={<Contributors/>}/>
-          <Route path="/footer" element={<Footer/>}/>
-        </Routes>
     </>
   )
 }

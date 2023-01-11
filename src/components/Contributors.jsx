@@ -40,8 +40,10 @@ const Contributors = () =>  {
 
     return (
         <div id="Contributors">
-            <h3> Meet The Team </h3>
-            {cards}
+            <h3 className="text-center"> Meet The Team </h3>
+            <div className="flex flex-row justify-evenly flex-wrap">
+                {cards}
+            </div>
         </div>
     );
 }
