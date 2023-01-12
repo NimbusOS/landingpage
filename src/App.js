@@ -4,21 +4,20 @@ import Footer from './components/Footer'
 import AboutNimbus from './components/AboutNimbus'
 import KeyFeatures from './components/KeyFeatures'
 import Navbar from './components/Navbar'
-// import { Routes, Route } from "react-router-dom";
 import Hero from './components/Hero'
 import Highlights from './components/Highlights';
 
 const App = () => {
   return (
-    <>
+    <div className="bg-base-200 font-nunito">
       <Navbar/>
-      <Hero />
-      <AboutNimbus/>
-      <Highlights />
-      <KeyFeatures/>
-      <Contributors/>
-      <Footer/>
-    </>
+        <Hero />
+        <AboutNimbus/>
+        <Highlights />
+        <KeyFeatures/>
+        <Contributors/>
+        <Footer/>
+      </div>
   )
 }
 

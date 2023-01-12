@@ -39,8 +39,8 @@ const Contributors = () =>  {
     }
 
     return (
-        <div id="Contributors">
-            <h3 className="text-center"> Meet The Team </h3>
+        <div id="Contributors" className="pt-16">
+            <h3 className="text-3xl text-center pb-10"> Meet The Team </h3>
             <div className="flex flex-row justify-evenly flex-wrap">
                 {cards}
             </div>

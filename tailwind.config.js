@@ -15,6 +15,11 @@ module.exports = {
       "success": "#2BD4BD",
       "warning": "#F4C152",
       "error": "#FB6F84",
+      "white": "#FFFFFF"
+    },
+    fontFamily: {
+      'roboto': ['Roboto'],
+      'nunito': ['Nunito']
     }
   },
   plugins: [require("daisyui")],

@@ -1,17 +1,16 @@
 import React from 'react';
 // import gitHubLogo from '../assets/github.png'
 // import linkedInLogo from '../assets/linkedin2.png'
-import { Outlet } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link'
 import nimbus from '../assets/nimbus.png'
 
 const Navbar = () =>  {
   return (
     <>
-      <nav className="navbar bg-primary fixed top-0 left-0 flex flex-row flex-wrap text-xs z-10">
+      <nav className="navbar bg-primary fixed top-0 left-0 flex flex-row flex-wrap text-xs z-10 overflow-auto p-0">
         <ul className="w-[100%] justify-start">
-          <li className="mx-3">
-            <img src={nimbus} alt="Nimbus" className="h-12 pb-2"/>
+          <li>
+              <img src={nimbus} alt="Nimbus" className="flex justify-center items-center w-24 mb-0.5 mx-3"/>
           </li>
           <li className="text-center mx-3 hover:text-base-300"> 
             <Link to="#AboutNimbus">About</Link>
@@ -27,7 +26,6 @@ const Navbar = () =>  {
           </li>
         </ul>
       </nav>
-    <Outlet/>
     </>
   );
 }
