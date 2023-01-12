@@ -1,5 +1,6 @@
 import React from 'react';
-import Login from "../assets/login-home.gif"
+import Login from "../assets/login-to-home-LQ.gif"
+import mac from '../assets/mac.png'
 
 const Hero = () =>  {
     return (
@@ -7,10 +8,10 @@ const Hero = () =>  {
             <div className="hero-content flex-col lg:flex-row">
                 <div className="text-center">
                 <h3>The ultimate monitoring and visualization tool for AWS Lambda. </h3>    
-                <button>Download INSERT DOWNLOAD HERE</button>
+                <button className="btn flex items-center"><p>Download</p><img src={mac} alt="Mac Download" className="w-8"/></button>
                 </div>
                 {/* Replace svg with whatever image we want here */}
-                <img src={Login} alt="login" className="w-96"/>
+                <img src={Login} alt="login" className="rounded-xl w-3/5"/>
            </div>
         </div>
     );

@@ -16,6 +16,9 @@ const Navbar = () =>  {
             <Link to="#AboutNimbus">About</Link>
           </li>
           <li className="text-center mx-3 hover:text-base-300">
+            <Link to="#Highlights">Highlights</Link>
+          </li>
+          <li className="text-center mx-3 hover:text-base-300">
             <Link to="#KeyFeatures">Key Features</Link>
           </li>
           <li className="text-center mx-3 hover:text-base-300">

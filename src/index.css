@@ -3,6 +3,14 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@keyframes slide {
+  from {
+    transform: translate-x-96;
+  }
+  to {
+    transform: translate-x-0;
+  }
+}
 
 * {
   color:#FAFAFA;
@@ -15,6 +23,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.animate-rotate-active {
+  animation: slide 2s linear;
 }
 
 .favicon {
@@ -33,5 +45,8 @@ body {
   width: 100px;
 }
 
+.visible {
+  visibility: visible;
+}
 
  
