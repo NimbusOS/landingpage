@@ -33,8 +33,8 @@ const ContributorCard = (props) =>  {
     <div className="card-body items-center text-center">
       <h2 className="card-title text-sm text-base-300">{props.name}</h2>
         <div className="flex mt-4 space-x-3 md:mt-6">
-          <a className="inline-flex items-center scale-75 text-center max-w-xs hover:scale-90 transition duration-300 ease-in-out" href={props.gitHub}> <img className="favicon" src={gitHubLogo} alt='GitHub Logo'/> </a>
-          <a className="inline-flex items-center scale-75 text-center max-w-xs hover:scale-90 transition duration-300 ease-in-out" href={props.linkedIn}> <img className="favicon" src={linkedInLogo} alt='LinkedIn Logo'/> </a>
+          <a className="inline-flex items-center scale-75 text-center max-w-xs hover:scale-90 transition duration-300 ease-in-out" href={props.gitHub} target="_blank" rel="noreferrer"> <img className="favicon" src={gitHubLogo} alt='GitHub Logo'/> </a>
+          <a className="inline-flex items-center scale-75 text-center max-w-xs hover:scale-90 transition duration-300 ease-in-out" href={props.linkedIn} target="_blank" rel="noreferrer"> <img className="favicon" src={linkedInLogo} alt='LinkedIn Logo'/> </a>
       </div>
     </div>
   </div>

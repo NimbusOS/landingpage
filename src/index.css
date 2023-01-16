@@ -49,4 +49,30 @@ body {
   visibility: visible;
 }
 
- 
+.cloud{ 
+  margin-top:70px;
+  width:700px;
+  height:240px;
+  background:#ba44b4;
+  box-shadow: 10px 10px rgba(0,0,0,0.2);
+  border-radius:100px;
+}
+.cloud::after, .cloud::before{
+   content:"";
+   position:relative;
+   display:inline-block;
+   background:inherit;
+   border-radius: 50%;
+}
+.cloud::after{
+   width:200px;
+   height:200px;
+   top:-120px;
+   left:-130px;
+}
+.cloud::before{
+   width:360px;
+   height:360px;
+   top: -70px;
+   left:130px;
+}
