@@ -10,7 +10,7 @@ const Highlights = () =>  {
     });
     
     return (
-        <div ref={ref} className={`${inView ? 'translate-y-0 duration-500' : 'translate-y-64'} text-center pt-16 `}>
+        <div ref={ref} id="Highlights" className={`${inView ? 'translate-y-0 duration-500' : 'translate-y-64'} text-center pt-16 `}>
             <h3 className="text-3xl mb-10 font-bold text-base-300">Highlights</h3>
             <div className="grid grid-cols-3 gap-10 mx-20">
                 <div className="card bg-base-100 shadow-2xl shadow-secondary">

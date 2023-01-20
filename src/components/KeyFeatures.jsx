@@ -3,9 +3,10 @@ import { useInView } from "react-intersection-observer";
 import login from '../assets/login-to-home-LQ.gif';
 import register from '../assets/register-LQ.gif';
 import functions from '../assets/functions-light-LQ.gif';
-import logs from '../assets/logs-LQ.gif'
-import apis from '../assets/apis-light-LQ.gif'
-import settings from '../assets/settings-LQ.gif'
+import logs from '../assets/logs-LQ.gif';
+import apis from '../assets/apis-light-LQ.gif';
+import settings from '../assets/settings-LQ.gif';
+import featureBackground from '../assets/feature-background.png';
 
 const KeyFeatures = () =>  {
     const [refRegister, inViewRegister] = useInView({
@@ -27,8 +28,8 @@ const KeyFeatures = () =>  {
         triggerOnce: true
     });
     return (
-        <div id="KeyFeatures" className="grid grid-cols-2 gap-12 px-20 my-10 pt-16">
-            <h3 className="col-span-2 text-center text-3xl pb-10 font-bold text-base-300">Key Features</h3>
+        <div id="KeyFeatures" className="grid grid-cols-2 gap-12 px-20 my-10 pt-16 relative z-0">
+            <h3 className="col-span-2 text-center text-3xl pb-10 font-bold text-base-300 z-10">Key Features</h3>
             <div ref={refRegister} className={`${inViewRegister ? 'translate-7-0 duration-300' : '-translate-x-28'} card bg-gradient-to-r from-secondary to-accent text-primary-content shadow-xl flex justify-center items-center`}>
                 <img className="w-[95%] h-[95%] rounded-xl shadow-sm" src={register} alt="nimbus"/>
             </div>
@@ -89,6 +90,9 @@ const KeyFeatures = () =>  {
             <div ref={refSettings} className={`${inViewSettings ? 'translate-x-0 duration-300' : 'translate-x-28'} card bg-gradient-to-r from-accent to-secondary text-primary-content shadow-xl flex justify-center items-center`}>
                 <img className="w-[95%] h-[95%] rounded-xl shadow-sm" src={settings} alt="nimbus"/>
             </div>
+            <img className="w-full absolute -z-10 top-10" alt="starry background" src={featureBackground} />
+            <img className="w-full absolute -z-10 top-1/2 rotate-180" alt="starry background" src={featureBackground} />
+
         </div>
     );
 }

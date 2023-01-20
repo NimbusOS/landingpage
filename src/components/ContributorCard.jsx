@@ -27,7 +27,7 @@ const ContributorCard = (props) =>  {
     //     </div>
     // </div>
     <div className="card w-48 bg-white shadow-2xl shadow-primary">
-    <figure className="px-10 pt-10">
+    <figure className="px-8 pt-8">
       <img src={currentImage} alt={props.name} className="rounded-xl hover:scale-90 transition duration-300 ease-in-out" />
     </figure>
     <div className="card-body items-center text-center">
