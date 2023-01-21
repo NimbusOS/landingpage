@@ -16,8 +16,8 @@ const Hero = () =>  {
                     <h3 className="text-base-300 text-xl font-bold mx-4">Monitor and Visualize Your AWS Lambda functions with Ease.</h3>    
                     {/* <button className="btn flex items-center"><p>Download</p><img src={mac} alt="Mac Download" className="w-8"/></button> */}
                     <div className="flex justify-start items-center m-4">
-                        <a href="/" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md mr-2 flex justify-center items-center opacity-75" >Windows<img src={windows} alt="Windows Download" className="w-6"/></button></a>
-                        <a href="/" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md ml-2 flex justify-center items-center opacity-75" >Mac<img src={mac} alt="Mac Download" className="w-6 mb-1.5"/></button></a>
+                        <a href="https://github.com/oslabs-beta/nimbus" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md mr-2 flex justify-center items-center opacity-75" >Windows<img src={windows} alt="Windows Download" className="w-6"/></button></a>
+                        <a href="https://github.com/oslabs-beta/nimbus" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md ml-2 flex justify-center items-center opacity-75" >Mac<img src={mac} alt="Mac Download" className="w-6 mb-1.5"/></button></a>
                     </div>
                 </div>
                 {/* Replace svg with whatever image we want here */}
