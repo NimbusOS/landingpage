@@ -28,7 +28,7 @@ const Highlights = () =>  {
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-base-300 ">Cloudwatch Logs</h2>
-                        <p className="text-sm text-base-300 ">Are you tired of sifting through endless logs to understand the performance and usage of your AWS Lambda functions? nimbus's advanced filtering options allow you to narrow down your search by dates, types, and keywords.</p>
+                        <p className="text-sm text-base-300 ">Are you tired of sifting through endless logs to understand the performance and usage of your AWS Lambda functions? Nimbus's advanced filtering options allow you to narrow down your search by dates, types, and keywords.</p>
                     </div>
                 </div>
                 <div className="card w-50 h-50 bg-base-100 shadow-2xl shadow-secondary">
@@ -37,7 +37,7 @@ const Highlights = () =>  {
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-base-300 ">API Gateway</h2>
-                        <p className="text-sm text-base-300 ">nimbus also gives you visibility into the resources in your AWS API Gateway. You'll be able to see the Lambda functions connected to each endpoint, giving you a complete picture of your serverless architecture.</p>
+                        <p className="text-sm text-base-300 ">Nimbus also gives you visibility into the resources in your AWS API Gateway. You'll be able to see the Lambda functions connected to each endpoint, giving you a complete picture of your serverless architecture.</p>
                     </div>
                 </div>
            </div>

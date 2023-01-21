@@ -14,19 +14,19 @@ const Navbar = () =>  {
             <img src={nimbus} alt="nimbus logo text" className="w-28 ml-1"/>
         </div>
         <ul className="w-[50%] flex justify-center">
-          <li className="text-center mx-8 text-base-300 hover:text-accent text-lg"> 
+          <li className="text-center mx-8 text-base-300 hover:text-purple-600 text-lg"> 
             <Link to="#AboutNimbus">About</Link>
           </li>
-          <li className="text-center mx-4 text-base-300 hover:text-accent text-lg">
+          <li className="text-center mx-4 text-base-300 hover:text-purple-600 text-lg">
             <Link to="#Highlights">Highlights</Link>
           </li>
-          <li className="text-center mx-4 text-base-300 hover:text-accent text-lg">
+          <li className="text-center mx-4 text-base-300 hover:text-purple-600 text-lg">
             <Link to="#KeyFeatures">Key Features</Link>
           </li>
-          <li className="text-center mx-4 text-base-300 hover:text-accent text-lg">
+          <li className="text-center mx-4 text-base-300 hover:text-purple-600 text-lg">
             <Link to="#Contributors">Contributors</Link>
           </li>
-          <li className="text-center mx-4 text-base-300 hover:text-accent text-lg">
+          <li className="text-center mx-4 text-base-300 hover:text-purple-600 text-lg">
             <a href="https://github.com/oslabs-beta/nimbus" target="_blank" rel="noreferrer">GitHub</a>
           </li>
         </ul>
