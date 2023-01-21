@@ -1,8 +1,12 @@
 import React from 'react';
+import { useInView } from "react-intersection-observer";
 import ContributorCard from './ContributorCard.jsx'
 
 
 const Contributors = () =>  {
+    const [ref, inView] = useInView({
+        triggerOnce: true
+    });
     // Create an array of Team Members contact information
     const team = [
         {
@@ -40,8 +44,8 @@ const Contributors = () =>  {
 
     return (
         <div id="Contributors" className="pt-16">
-            <h3 className="text-3xl text-center pb-10"> Meet The Team </h3>
-            <div className="flex flex-row justify-evenly flex-wrap">
+            <h3 className="text-3xl text-center pb-10 font-bold text-base-300"> Meet The Team </h3>
+            <div ref={ref} className={`${inView ? 'translate-y-0 duration-300' : 'translate-y-64'} flex flex-row justify-evenly flex-wrap`}>
                 {cards}
             </div>
         </div>
