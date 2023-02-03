@@ -14,7 +14,6 @@ const Hero = () =>  {
                 <div className="flex flex-col w-1/2">
                     <h3 className="text-base-300 text-4xl font-nunito font-extrabold mx-4 mb-1">Go Serverless with Confidence.</h3>
                     <h3 className="text-base-300 text-xl font-bold mx-4">Monitor and Visualize Your AWS Lambda functions with Ease.</h3>    
-                    {/* <button className="btn flex items-center"><p>Download</p><img src={mac} alt="Mac Download" className="w-8"/></button> */}
                     <div className="flex justify-start items-center m-4">
                         <a href="http://nimbusapp-env.eba-jwatv44i.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md mr-2 flex justify-center items-center opacity-75" >Launch App</button></a>
                         {/* <a href="https://github.com/oslabs-beta/nimbus" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md mr-2 flex justify-center items-center opacity-75" >Launch App<img src={windows} alt="Windows Download" className="w-6"/></button></a> */}
