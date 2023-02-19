@@ -1,6 +1,6 @@
 import React from 'react';
 import mac from '../assets/mac-icon.png';
-import windows from '../assets/windows-icon.png';
+// import windows from '../assets/windows-icon.png';
 import homeBackground from '../assets/home-background.png';
 // import homeDisplayFunctions from '../assets/home-display-functions.png'
 import homeDisplayHome from '../assets/home-display-home.png';
@@ -17,7 +17,7 @@ const Hero = () =>  {
                     <div className="flex justify-start items-center m-4">
                         <a href="http://nimbusapp-env.eba-jwatv44i.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md mr-2 flex justify-center items-center opacity-75" >Launch App</button></a>
                         
-                        <a href="https://nimbus-app.s3.us-east-1.amazonaws.com/nimbus-darwin-arm64-1.0.0.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQAZ7KLVD3B466D45%2F20230215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230215T233200Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDvPetrxgtHdkyn3XoPdda8fhzwkAgJDp9VgQJYM1tpbQIhAIsZYJS6tbJtump1muwrfKnb3CqYvDbopMKHZoqgJdXuKocDCDkQABoMMDAxNzQzNDEyNTUxIgxnqJ967xoR%2FGkD46cq5AIS1jNFpWC7U1WQv8INblFaUT2hBK8tTdDC%2BQoLfvNP9HuNOGyv2sepSO0lD7JrxKzU3o28Xc4edrnyIuLR6ZUKWwEn44FzDdsjfSd2IOBbGar4vCfLW0z3BCNtP1Zd%2BYs8UdNEpj6Y1g%2FVGdwQoZ%2FSmjnZUUaNi8WF6dCrBGUffirvh3LWDodok8PQpKp4N2JPtctZgwhom%2BIhvZG7I6LZ9G8hyKwgsRaA3MV3nSHBTYv80ti8g0ysV7StdyziihgUUAZJcg%2FUGi2DakL1r%2FV0SQbuWJBGhhykxwE9fiq2wEnlY%2FgtZiR4ziY0qHxAjJkmJWwMlxQ0QZi1aQOb%2B05Sxin2qOJ118mO5xIwMu5k68noEhDlOjCTw10EpK2pOOH1V11lbd69pKjAivEjkj8wcv02LvQNR77UQnD4JYYawImEYOabZLEKQG2tjFs4sW14%2FarHfS3zruSzdMHaIvNBg%2FesrjDDwbWfBjqzAsG%2F8%2Bn9s8HsQURObyWOLHmIlV1jqH9z1n8LtTJ%2ByOy8lQ1IhfVvbuqDlp9DVbHrxGjP8biCYKaUEa0kXW2PhIUAAUvFpLjxS0Tk1wUJxGeCM%2BnTdaUMA091DOZI4Pr%2F0W5eGzfur31AoZ7qf4rtoXJ%2Bjqavm4zdAh0uAzLC2Vx2KLFD4eULDdPwLEIXpX0C2ZvTNBkraVe6kbdx96Gz0SoNIPD8eG%2FI6GWLu96j74A%2BKhWD62jHdRqnk9%2FzgyUNUrfnvmTY4Unckh20Btq5f0l0PJKShwZGQ5vYWrC4mWPsHCvrcNGO4BZe0%2FykPSQIkMzphdzzsL5DNtS76cbD5gvKHY3xhCHgm4SxZs9CfqTtULLTe2MVwJq0hVVajfy%2BR9QwTzKl76yaIDqLupQDBzBz158%3D&X-Amz-Signature=d8ce13023edfff94166004382cfa98974d3cebfce83f801408ca992d88bbb1ce"
+                        <a href="https://nimbus-app.s3.us-east-1.amazonaws.com/nimbus-darwin-arm64-1.0.0.zip"
                         target="_blank" 
                         rel="noreferrer"
                         ><button className="btn btn-secondary w-36 shadow-md ml-2 flex justify-center items-center opacity-75" >Download<img src={mac} alt="Mac Download" className="w-6 mb-1.5"/></button></a>
