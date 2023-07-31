@@ -12,9 +12,9 @@ const Hero = () =>  {
                     <h3 className="text-base-300 text-4xl font-nunito font-extrabold mx-4 mb-1">Go Serverless with Confidence.</h3>
                     <h3 className="text-base-300 text-xl font-bold mx-4">Monitor and Visualize Your AWS Lambda functions with Ease.</h3>    
                     <div className="flex justify-start items-center m-4">
-                        <a href="http://nimbusapp-env.eba-jwatv44i.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md mr-2 flex justify-center items-center opacity-75" >Launch App</button></a>
+                        <a href="http://nimbus.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md mr-2 flex justify-center items-center opacity-75" >Launch App</button></a>
                         
-                        <a href="http://nimbus.us-east-1.elasticbeanstalk.com/"
+                        <a href="https://nimbus-app.s3.us-east-1.amazonaws.com/nimbus-darwin-arm64-1.0.0.zip"
                         target="_blank" 
                         rel="noreferrer"
                         ><button className="btn btn-secondary w-36 shadow-md ml-2 flex justify-center items-center opacity-75" >Download<img src={mac} alt="Mac Download" className="w-6 mb-1.5"/></button></a>
