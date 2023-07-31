@@ -35,16 +35,5 @@ const Navbar = () =>  {
   );
 }
 
-// const Navbar = () => {
-//   return (
-//     <div className="Navbar">
-//       <div className="App">
-//         <h2> Nimbus </h2>
-//         <a href="https://www.linkedin.com"> <img className="navbarLink" src={linkedInLogo} alt="LinkedIn Logo"/> </a>
-//         <a href="https://github.com/oslabs-beta/nimbus"> <img className="navbarLink" src={gitHubLogo} alt="GitHub Logo"/> </a>
-//       </div>
-//     </div>
-//   )
-// }
 
 export default Navbar;

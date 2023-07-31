@@ -21,16 +21,4 @@ const App = () => {
   )
 }
 
-// const App = () =>  {
-//   return ( 
-//     <div className="App">
-//       <Navbar/>
-//       <AboutNimbus/>
-//       <KeyFeatures/>
-//       <Contributors/>
-//       <Footer/>
-//     </div>
-//   );
-// }
-
 export default App;

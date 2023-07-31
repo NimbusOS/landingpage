@@ -1,10 +1,7 @@
 import React from 'react';
 import mac from '../assets/mac-icon.png';
-// import windows from '../assets/windows-icon.png';
 import homeBackground from '../assets/home-background.png';
-// import homeDisplayFunctions from '../assets/home-display-functions.png'
 import homeDisplayHome from '../assets/home-display-home.png';
-// import homeDisplayLogs from '../assets/home-display-logs.png'
 import homeDisplayRegister from '../assets/home-display-register.png';
 
 const Hero = () =>  {
@@ -17,7 +14,7 @@ const Hero = () =>  {
                     <div className="flex justify-start items-center m-4">
                         <a href="http://nimbusapp-env.eba-jwatv44i.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noreferrer"><button className="btn btn-secondary w-36 shadow-md mr-2 flex justify-center items-center opacity-75" >Launch App</button></a>
                         
-                        <a href="https://nimbus-app.s3.us-east-1.amazonaws.com/nimbus-darwin-arm64-1.0.0.zip"
+                        <a href="http://nimbus.us-east-1.elasticbeanstalk.com/"
                         target="_blank" 
                         rel="noreferrer"
                         ><button className="btn btn-secondary w-36 shadow-md ml-2 flex justify-center items-center opacity-75" >Download<img src={mac} alt="Mac Download" className="w-6 mb-1.5"/></button></a>
